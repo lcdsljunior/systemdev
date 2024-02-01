@@ -21,7 +21,7 @@
                     <div class="col-6">
                         <div class="card">
                             <div class="card-body">
-                                <form action="#">
+                                <form action="cadastroUsuario.php" enctype="multipart/form-data" method="post">
                                     <div class="row">
                                         <div class="col-8">
                                             <div class="mb-3">
@@ -48,7 +48,7 @@
                                             <div class="mb-3">
                                                 <label for="exampleFormControlInput1" class="form-label">Permissão</label>
                                                 <select name="permissao" class="form-select" aria-label="Default select example">
-                                                    <option selected disabled>Escolha a permissão</option>
+                                                    <option selected disabled>...</option>
                                                     <option value="1">Administrador</option>
                                                     <option value="2">Operacional</option>
                                                     <option value="3">Relatórios</option>
@@ -72,7 +72,7 @@
                                     </div>
                                     <div class="mb-3">
                                         <div class="mb-3">
-                                            <label for="formFile" class="form-label">Exemplo de entrada de arquivo padrão</label>
+                                            <label for="formFile" class="form-label">Foto</label>
                                             <input name="foto" class="form-control" type="file" id="formFile">
                                         </div>
                                     </div>
